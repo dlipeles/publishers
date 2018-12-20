@@ -341,8 +341,8 @@ export default class BannerEditor extends React.Component {
           <Dialogue id='save-container' save>
             { this.state.saving === false &&
               <div>
-                <Text dialogueHeader>Your banner will be updated within one day</Text>
-                <Text dialogueSubtext>Your updated banner will be presented to Brave users within 24 hours.</Text>
+                <Text dialogueHeader>Your banner will be updated within 24 hours</Text>
+                <Text dialogueSubtext>Please note, for V0.58 of the Brave Browser, the custom tip amounts for the banner will show up as 1, 5, 10 BAT.</Text>
                 <Button dialoguePrimary onClick={ () => this.setState({state: 'Editor'}) }>OK</Button>
               </div>
             }
